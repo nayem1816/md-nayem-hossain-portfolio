@@ -1,0 +1,21 @@
+.mouse-pointer {
+  cursor: pointer;
+}
+.sticky-topbar {
+  background-image: linear-gradient(
+    to right top,
+    #120f12,
+    #131013,
+    #141014,
+    #141114,
+    #151115,
+    #161114,
+    #171113,
+    #171112,
+    #161110,
+    #15120f,
+    #13120f,
+    #111210
+  );
+  height:70px;
+}

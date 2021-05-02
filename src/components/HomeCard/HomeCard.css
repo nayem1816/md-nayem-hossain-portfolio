@@ -1,0 +1,13 @@
+.home-info{
+    background-color: #292929;
+    border-radius: 10px;
+    margin-top: -3%;
+    padding: 20px;
+    position: relative;
+    z-index: 12;
+}
+.home-card-left{
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 10px;
+}
