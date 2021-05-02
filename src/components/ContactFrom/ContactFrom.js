@@ -59,7 +59,7 @@ const ContactFrom = () => {
         <textarea class="form-control" name="message" rows="3"></textarea>
       </div>
       <div class="col-12 mt-3">
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary btn-style">
           Send
         </button>
       </div>

@@ -1,6 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NotFound from "./components/NotFound/NotFound";
+import { BrowserRouter as Router} from "react-router-dom";
 import Header from "./components/Header/Header";
 import MainContainer from "./components/MainContainer/MainContainer";
 import MouseParticles from "react-mouse-particles";

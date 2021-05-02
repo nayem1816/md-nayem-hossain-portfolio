@@ -14,3 +14,19 @@
     margin: 0 auto;
     color: red;
 }
+
+.text{
+  color: white !important;
+}
+
+.text:hover{
+  color: red !important;
+}
+
+.btn-style{
+
+}
+.btn-style:hover{
+  background-color: red;
+  color: white;
+}

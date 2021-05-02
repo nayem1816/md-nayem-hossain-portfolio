@@ -41,7 +41,7 @@ const Resume = () => {
           <a
             target="_blank"
             href="https://drive.google.com/file/d/1mzqyv155YOGd-WuWP5WPztPoXx_I95hr/view?usp=sharing"
-            className="btn btn-primary"
+            className="btn btn-primary btn-style"
             rel="noreferrer"
           >
             Download CV

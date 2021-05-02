@@ -17,7 +17,7 @@ const Home = () => {
         </p>
         <div className="mt-4">
           <Link
-            className="btn btn-primary m-2"
+            className="btn btn-primary m-2 btn-style"
             to="contact"
             smooth={true}
             duration={50}
@@ -27,7 +27,7 @@ const Home = () => {
           <a
             target="_blank"
             href="https://drive.google.com/file/d/1mzqyv155YOGd-WuWP5WPztPoXx_I95hr/view?usp=sharing"
-            className="btn btn-primary"
+            className="btn btn-primary btn-style"
             rel="noreferrer"
           >
             Download CV

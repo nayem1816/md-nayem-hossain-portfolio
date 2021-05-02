@@ -62,7 +62,7 @@ const Project = () => {
                 <h4 className="mt-3">{project.title}</h4>
                 <p>{project.details}</p>
                 <a
-                  className="btn btn-primary"
+                  className="btn btn-primary btn-style"
                   href={`${project.link}`}
                   target="_blank"
                   rel="noreferrer"

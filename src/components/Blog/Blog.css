@@ -9,3 +9,6 @@
 .link-style{
     text-decoration: none;
 }
+.link-style:hover{
+    color: red;
+}

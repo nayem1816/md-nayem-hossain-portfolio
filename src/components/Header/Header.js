@@ -8,7 +8,12 @@ const Header = () => {
     <div className="fixed-top sticky-topbar">
       <nav class="container navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <Link className="navbar-brand text-link-color mouse-pointer" to="">
+          <Link
+            className="navbar-brand mouse-pointer text"
+            to="home"
+            smooth={true}
+            duration={50}
+          >
             NAYEM
           </Link>
           <button
@@ -27,32 +32,52 @@ const Header = () => {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <Link className="nav-link ms-5 text-link-color mouse-pointer" to="home" smooth={true}
-                duration={50}>
+              <Link
+                className="nav-link ms-5 mouse-pointer text"
+                to="home"
+                smooth={true}
+                duration={50}
+              >
                 Home
               </Link>
               <Link
-                className="nav-link ms-5 text-link-color mouse-pointer"
+                className="nav-link ms-5 mouse-pointer text"
                 to="about"
                 smooth={true}
                 duration={50}
               >
                 About
               </Link>
-              <Link className="nav-link ms-5 text-link-color mouse-pointer" to="resume" smooth={true}
-                duration={50}>
+              <Link
+                className="nav-link ms-5 mouse-pointer text"
+                to="resume"
+                smooth={true}
+                duration={50}
+              >
                 Resume
               </Link>
-              <Link className="nav-link ms-5 text-link-color mouse-pointer" to="blog" smooth={true}
-                duration={50}>
+              <Link
+                className="nav-link ms-5 mouse-pointer text"
+                to="blog"
+                smooth={true}
+                duration={50}
+              >
                 Blog
               </Link>
-              <Link className="nav-link ms-5 text-link-color mouse-pointer" to="resume" smooth={true}
-                duration={50}>
+              <Link
+                className="nav-link ms-5 mouse-pointer text"
+                to="project"
+                smooth={true}
+                duration={50}
+              >
                 Project
               </Link>
-              <Link className="nav-link ms-5 text-link-color mouse-pointer" to="contact" smooth={true}
-                duration={50}>
+              <Link
+                className="nav-link ms-5 mouse-pointer text"
+                to="contact"
+                smooth={true}
+                duration={50}
+              >
                 Contact
               </Link>
             </div>
